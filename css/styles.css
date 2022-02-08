@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Baloo Bhaijaan 2', cursive;
 }
 .home{
   background-color: red;
@@ -43,11 +44,12 @@ color: lightgray;
 }
 .left{
   display: flex;
-  height: 40vh;
+  /* height: 5vh; */
+
 
   width: 30vw;
   /* align-items: center; */
-  margin-top: 6rem;
+  margin-top: 3rem;
   flex-direction: column;
   font-size: 4rem;
   /* border: 2px blue solid; */
@@ -114,9 +116,10 @@ color: lightgray;
   /* color: white; */
   text-decoration: none;
   background-color:unset;
-color: darkred;
+color: white;
+background-color: darkred;
   padding: 9px;
-  border: 1px lightskyblue solid;
+  border: 2px lightskyblue solid;
 }
 .playa:hover{
   background-color: rgba(0, 0, 0, 1);
@@ -141,7 +144,7 @@ justify-content: center;
 align-items: center;
   width: 300px;
   /* border: 2px solid blue; */
-  margin: 15px;
+  margin: 15px auto;
   padding: 10px;
 }
 .boxes h1{
@@ -186,7 +189,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-  height: 70vh;
+  height: 60vh;
   width: 70vw;
   margin: 10px auto;
   /* border: 2px yellow solid; */
@@ -266,11 +269,17 @@ text-align: center;
   padding: 5px;
 }
 .signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 80px;
   margin: 10px auto;
   border-radius: 10px;
-  
 
+}
+.signup:hover{
+  background-color: rgb(22, 65, 82);
+  color: lightcyan;
 }
 
 
@@ -278,6 +287,7 @@ text-align: center;
 .download{
   background-color: red;
   padding: 2rem 10rem;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -290,3 +300,178 @@ text-align: center;
   font-weight: 1000;
   text-align: center;
 }
+
+
+
+.footer{
+  height: 70vh;
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  font-size: 1.2rem;
+  align-items: center;
+
+}
+.links{
+  display: flex;
+  margin: 2rem 0px;
+}
+.copy{
+  margin: 20px;
+}
+#heart{
+  color: red;
+}
+.developer{
+  /* font-size: 1rem; */
+  text-decoration: none;
+  color: rgb(56, 84, 95);
+
+}
+.link{
+  margin: 0px 1rem;
+}
+.link:hover{
+  /* margin: 0px 1rem; */
+  /* background-color:red; */
+}
+.developer:hover{
+  /* font-size: 1rem; */
+  text-decoration: underline;
+
+}
+.boxes img{
+  background-color: black;
+}
+
+.logoimg{
+  /* background-color: black; */
+height: 40px;
+width: 40px;
+}
+
+
+@media screen and (max-width: 1500px) {
+  .download h1{
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .left{
+    font-size: 3rem;
+  }
+  .boxes h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .left{
+    width: 100vw;
+  }
+  .right{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right img {
+    margin: auto;
+    height: 400px;
+    width: 200px;
+    transform: rotate(0deg);
+}
+.sponser img {
+  margin: 0.5rem;
+  width: 150px;
+  height: 50px;
+}
+.sponser{
+  flex-wrap: wrap;
+}
+.by{
+  margin: 1rem;
+}
+.planboxes p {
+  font-size: 0.7rem;}
+  .planboxes h2 {
+    font-size: 1.1rem;}
+  .planboxes h1 {
+    font-size: 1rem;} 
+  .footer{
+    margin: 3rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .sponser img {
+    margin: 0.5rem;
+    width: 60px;
+    height: 30px;
+  }
+  .by{font-size: 0.5rem;}
+  .right img{
+    height: 200px;
+    width: 100px;
+  }
+  .left{
+    font-size: 2rem;
+    font-weight: 1000;
+  }
+  .download h1 {
+    font-size: 1rem;
+    width: 80vw;
+}
+.button {
+  font-size: 0.6rem;
+  width: 75px;
+  height: 10px;
+}
+.change h1 {
+  font-size: 1rem;
+}
+nav ul a {
+margin: 0.5rem;
+font-size: 1rem;
+}
+.homemain h1 {
+  font-size: 1.5rem;
+}
+.planboxes {
+  margin: 5px auto;
+}
+.boxes p {
+  font-size: 0.7rem;}
+
+
+  .boxes h1 {
+    font-size: 1rem;}
+    .right img {
+      height: 150px;
+      width: 75px;
+  }
+  .left {
+    font-size: 1.3rem;}
+    .homemain h1 {
+      font-size: 0.9rem;
+  }
+  nav ul a {
+    font-size: 0.7rem;
+}
+.white{
+  display: unset;
+}
+.planboxes{
+  width: 150px;
+}
+.planboxes p {
+    font-size: 0.3rem;
+}
+.dogimage {
+  height: 50px;
+  width: 50px;}
+  .planbox {
+    flex-direction: column;
+}
+  }
